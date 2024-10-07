@@ -10,7 +10,7 @@ class CalculatorApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculator App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: CalculatorScreen(),
     );
@@ -112,7 +112,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           height: 70,
           margin: EdgeInsets.all(4),
           decoration: BoxDecoration(
-            color: Colors.blueAccent,
+            color: Colors.redAccent,
             borderRadius: BorderRadius.circular(10),
           ),
           child: Center(
